@@ -13,4 +13,9 @@ public class Controller {
         return "Hello";
     }
 
+    @GetMapping("/teste")
+    public String text(){
+        return "Api - microserviços";
+    }
+
 }
